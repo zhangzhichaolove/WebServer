@@ -4,7 +4,7 @@
 
 ## 一个简单易用的Web服务。
 
-### 下载：[releases](releases)
+### 下载：[Releases](./releases)
 
 > 特色：
 
