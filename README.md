@@ -31,5 +31,5 @@
 ## 查看
 
 ```
-[http://localhost](http://localhost)
+(http://localhost)[http://localhost]
 ```
