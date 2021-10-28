@@ -27,3 +27,9 @@
 ```
 ./webServer
 ```
+
+## 查看
+
+```
+[http://localhost](http://localhost)
+```
