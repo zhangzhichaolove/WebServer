@@ -4,7 +4,7 @@
 
 ## 一个简单易用的Web服务。
 
-### 下载：[Releases](/releases/latest)
+### 下载：[Releases](https://github.com/zhangzhichaolove/WebServer/releases)
 
 > 特色：
 
