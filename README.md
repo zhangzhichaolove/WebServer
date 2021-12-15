@@ -6,6 +6,13 @@
 
 ### 下载：[Releases](https://github.com/zhangzhichaolove/WebServer/releases)
 
+## 更新:
+
+> 2021-12-15更新版本->1.0.1
+> 1.添加服务配置文件（首次启动会自动生成）
+> 2.支持配置自定义端口。
+> 3.支持https配置（需要配置证书）
+
 > 特色：
 
 #### 1.为单页应用提供服务时，不会出现history路由模式下刷新404问题。
