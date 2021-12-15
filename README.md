@@ -6,6 +6,8 @@
 
 ### 下载：[Releases](https://github.com/zhangzhichaolove/WebServer/releases)
 
+### 使用[docker部署](./docker.md)
+
 ## 更新:
 
 > 2021-12-15更新版本->1.0.1
