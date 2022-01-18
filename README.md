@@ -39,7 +39,7 @@
 
 ## 使用步骤：
 
-#### 1.讲对应平台的webServer文件拷贝至项目目录。
+#### 1.将对应平台的`webServer`文件拷贝至项目目录。
 
 > 结构如下：
 
@@ -53,6 +53,33 @@
 
 ```
 ./webServer
+```
+
+#### 3.修改运行配置并重启-可选
+
+> 首次运行后，会在当前目录生成默认`app.yaml`配置文件，结构如下：
+
+```
+├── dist (前端build之后的目录)
+├── app.yaml (生成的默认配置文件)
+└── webServer
+```
+
+> `app.yaml`配置如下：
+
+```
+server:
+  path: ./dist
+  https: false
+  port: 80
+  pem: ./ssl/ssl.pem
+  key: ./ssl/ssl.key
+```
+
+> `app.yaml`配置如下：
+
+```
+
 ```
 
 ## 使用对比：
