@@ -6,7 +6,7 @@
 
 ### 下载：[Releases](https://github.com/zhangzhichaolove/WebServer/releases)
 
-### 为了更加方便，现已支持[docker部署-v1](./docker.md)了
+### 为了更加方便，现已支持[docker-v1部署](./docker.md)了
 ### 为了减小容器体积，现已支持[docker-v2部署](./docker-1.0.2.md)了
 
 ## 更新:
