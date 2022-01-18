@@ -39,7 +39,7 @@ docker pull peakchao/web-server:v2
 docker container run -d -p 80:80 -p 443:443 -v /Users/chao/Downloads:/data --name web-server peakchao/web-server:v2
 ```
 
-> 首次启动后生成的默认`app.yaml`配置文件,修改配置文件后重启容器生效：
+> 首次启动后会在`/Users/chao/Downloads`目录生成的默认`app.yaml`配置文件,修改配置文件后重启容器生效：
 
 ```
 server:
