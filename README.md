@@ -76,10 +76,21 @@ server:
   key: ./ssl/ssl.key
 ```
 
-> `app.yaml`配置如下：
+> 修改`app.yaml`配置到https：
 
 ```
+server:
+  path: ./dist
+  https: true
+  port: 443
+  pem: ./ssl/ssl.pem
+  key: ./ssl/ssl.key
+```
 
+> 重启生效：
+
+```
+./webServer
 ```
 
 ## 使用对比：
