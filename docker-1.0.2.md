@@ -7,7 +7,35 @@
 docker pull peakchao/web-server:v2
 ```
 
-##### 启动容器时，需要挂载你的网站目录到容器/data路径，并开放你想要使用的端口，第一次运行容器会自动在你挂载的目录生成配置文件，修改配置文件后，请重启容器，容器默认使用http服务，端口80，默认读取挂载目录/data/index.html
+##### 启动容器时，需要挂载你的资源目录到容器/data路径，并开放你想要使用的端口，第一次运行容器会自动在你挂载的目录生成配置文件，修改配置文件后，请重启容器，容器默认使用http服务，端口80，默认读取挂载目录/data/web/index.html
+
+## 启动示例：
+
+> 默认`/Users/chao/Downloads`目录结构(如果无需https配置，可以省去ssl目录)：
+
+```
+── ssl
+   ├── ssl.key
+   └── ssl.pem
+── web
+   ├── css
+   │   ├── app.6b546ac1.css
+   │   └── chunk-vendors.f79c1e5f.css
+   ├── favicon.ico
+   ├── fonts
+   │   └── element-icons.d9491be2.woff
+   ├── index.html
+   └── js
+       ├── app.9fa010c9.js
+       ├── .....
+       └── chunk-vendors.2c045c43.js
+```
+
+> 默认配置启动示例：
+
+```
+docker container run -d -p 80:80 -p 443:443 -v /Users/chao/Downloads:/data --name web-server peakchao/web-server:v2
+```
 
 ## 启动命令：
 ```
