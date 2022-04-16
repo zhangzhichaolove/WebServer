@@ -1,4 +1,4 @@
-# V3版本镜像仅2M大小
+# 镜像仅2M大小
 
 ### 超简单的web部署服务，支持vue/react等框架开发的单页应用部署并使用gzip压缩，更省流量。
 
@@ -6,7 +6,7 @@
 
 ## 拉取镜像：
 ```
-docker pull peakchao/web-server:v3
+docker pull peakchao/web-server:v4
 ```
 
 ##### 启动容器时，需要挂载你的资源目录到容器/data/路径下，并开放你想要使用的端口，第一次运行容器会自动在你挂载的目录生成`app.yaml`配置文件，修改配置文件后，请重启容器，容器默认使用http服务，端口80，默认读取挂载目录/data/web/index.html
@@ -36,7 +36,7 @@ docker pull peakchao/web-server:v3
 > 默认配置启动示例：
 
 ```
-docker container run -d -p 80:80 -p 443:443 -v /Users/chao/Downloads:/data --name web-server peakchao/web-server:v2
+docker container run -d -p 80:80 -p 443:443 -v /Users/chao/Downloads:/data --name web-server peakchao/web-server:v4
 ```
 
 > 首次启动后会在`/Users/chao/Downloads`目录生成的默认`app.yaml`配置文件,修改配置文件后重启容器生效：
@@ -52,7 +52,7 @@ server:
 
 ## 启动命令：
 ```
-docker container run -d -p 80:80 -p 443:443 -v /Users/chao/Downloads:/data --name web-server peakchao/web-server:v2
+docker container run -d -p 80:80 -p 443:443 -v /Users/chao/Downloads:/data --name web-server peakchao/web-server:v4
 ```
 ## 打开浏览器验证：
 ```
