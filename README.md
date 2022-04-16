@@ -6,7 +6,7 @@
 
 ### 下载：[Releases](https://github.com/zhangzhichaolove/WebServer/releases)
 
-### 为了更加方便，现已支持[docker-部署](./docker.md)了,镜像大小仅2M.
+### 为了更加方便，现已支持[docker-部署](./docker-new.md)了,镜像大小仅2M.
 
 ## 更新:
 
